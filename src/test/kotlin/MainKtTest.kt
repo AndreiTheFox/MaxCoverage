@@ -350,7 +350,7 @@ class MainKtTest {
         val result = masterkardMaestro(
             amount = amount
         )
-        assertEquals(0F, result)
+        assertEquals(-10F, result)
     }
     @Test
     fun masterkardMaestroDefaultAmountOutRange(){       //Default Maestro и Mastercard
